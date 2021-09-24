@@ -43,3 +43,4 @@
 
 # Custom
 .secrets/
+build/

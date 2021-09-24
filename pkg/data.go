@@ -13,6 +13,7 @@ import (
 var BINANCE_BNBUSDT = Pair{Pair: "bnbusdt", PrecisionStep: 0.1, ToDecimal: 10, TradeMinValue: 0.01}
 var BINANCE_ETHUSDT = Pair{Pair: "ethusdt", PrecisionStep: 0.01, ToDecimal: 100, TradeMinValue: 0.01}
 var BINANCE_ETHBTC = Pair{Pair: "ethbtc", PrecisionStep: 0, ToDecimal: 1000000, TradeMinValue: 0.0001}
+var BINANCE_SOLUSDT = Pair{Pair: "solusdt", PrecisionStep: 0.01, ToDecimal: 100, TradeMinValue: 0.01}
 
 // Symbol description
 type Pair struct {

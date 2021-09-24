@@ -50,7 +50,7 @@ func wsHandler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	chWs := make(chan []byte, 1)
-	pair := BINANCE_BNBUSDT
+	pair := BINANCE_SOLUSDT
 	depth := 20
 	updateSpeed := 100
 	go Extractor(chWs, pair, depth, updateSpeed)
