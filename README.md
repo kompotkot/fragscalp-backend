@@ -1,7 +1,7 @@
 # streamglass-backend
 
 Backend API Go client to process raw data from different sources.
-Clean, organize compress it and send to web client.
+Clean, organize compress it and send to web client [fragscalp-frontend](https://github.com/kompotkot/fragscalp-frontend).
 
 ## Startup
 
